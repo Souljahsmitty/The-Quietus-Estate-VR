@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Void Interactive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        .horizontal-scroll a {
+            display: inline-block;
+            padding: 10px 20px;a
+            margin: 0 5px;
+            text-decoration: none;
+            color: #333;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .horizontal-scroll a:hover {
+            background-color: #ccc;
+        }
+
+        .main-container {
+            background-image: url('images/ai_image_1021162_24091997.jpg'); /* Reference for background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <img src="images/logo_to_remove_background-removebg-preview.png" alt="Virtual Void Interactive Logo" class="logo">
+        <input type="text" placeholder="Search for assets">
+    </header>
+
+    <!-- Header Banner -->
+    <div class="header-banner">
+        <div class="banner-content">
+            <h5>Virtual Reality Horror Come Alive</h5>  
+            <h6>The Quietus Estate</h6>
+        </div>
+		<div class="banner-image">
+        <img src="images/ai_image_1021262_24092736-removebg-preview.png" alt="Playerimage Image">
+		</div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <nav class="top-nav">
+        <a href="#overview">Overview</a>
+        <a href="#package-content">Game Content</a>
+        <a href="#releases">Releases</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+
+    <!-- Horizontal Scroll Bar -->
+    <div class="horizontal-scroll">
+        <a href="#home">Home</a>
+        <a href="#story">Story</a>
+        <a href="#gameplay">Gameplay</a>
+    </div>
+
+    <main class="main-container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="#">Home</a> &gt; <a href="#">Story of The Quietus Estate </a> &gt; <a href="#">Gameplay</a> &gt; <span>The Quietus Estate</span>
+        </div>
+
+        <!-- Product Section -->
+        <section class="product">
+            <div class="video-section">
+                <div class="main-video">
+                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/yaVYeYa8DlQ?si=ZwjI3V9-N_WNRqAZ" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="thumbnails">
+                    <img src="images/Mansion creepy bathroom.png" alt="Thumbnail 1">
+                    <img src="images/Mansion creepy bedroom.png" alt="Thumbnail 2">
+                    <img src="images/mansion creepy fireplace seating area.png" alt="Thumbnail 3">
+                    <img src="images/mansion hallway.png" alt="Thumbnail 4">
+                    <img src="images/creepy kitchen.png" alt="Thumbnail 5">
+                    <img src="images/mansion roof worn.png" alt="Thumbnail 6">
+                    <img src="images/Mansion expanded view.png" alt="Thumbnail 7">
+                </div>
+            </div>
+
+            <div class="details">
+                <h2>The Quietus Estate</h2>
+                <p>By Virtual Void Interactive</p>
+                <p>Price: Free</p>
+                <label for="seat-selection">Seat:</label>
+                <select id="seat-selection">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                <button id="buy-button">Add to Cart</button>
+                <p><strong>License:</strong> Extension Asset</p>
+                <p><strong>File Size:</strong> 90 GB</p>
+                <p><strong>Latest Version:</strong> 1.3.0</p>
+                <p><strong>Refund Policy:</strong> Refund available</p>
+            </div>
+        </section>
+		<section class="intro">
+    <div class="intro-content">
+        <h2>The Quietus Estate - Introduction</h2>
+        <p>Awakened in the eerie silence of a decaying mansion, you find yourself trapped within The Quietus Estate, a sprawling, grandiose home steeped in mystery and ruin. The doors are sealed, the windows impenetrable, and the faint sound of shuffling feet suggests you’re not alone. Once owned by the enigmatic Hawthorne family, the estate’s halls now crawl with undead horrors—victims of the family’s forbidden experiments to conquer death.</p>
+        <p>To escape, you must navigate the mansion’s labyrinth of grand ballrooms, shadowy corridors, and hidden passages, scavenging scarce resources and solving intricate puzzles to unlock the way out. But the mansion holds more than just the undead—it has a sinister will of its own, and the deeper you delve, the more it seems determined to keep you within its walls forever.</p>
+        <p>Stealth, strategy, and sharp instincts will be your greatest allies as you uncover the twisted truth of the Hawthornes and fight to break free from the clutches of The Quietus Estate. Will you escape, or will you become one of the restless souls trapped inside?</p>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 3D Store. All Rights Reserved.</p>
+    </footer>
+	<footer>
+    
+    <div class="custom-footer">
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: support@quietusestate.com</p>
+            <p>Chat: <a href="#">Start Chat</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>FAQ</h3>
+            <ul>
+                <li><a href="#">Gameplay</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Blog</h3>
+            <ul>
+                <li><a href="#">Inspiration for the Game</a></li>
+                <li><a href="#">Suggestions from Players</a></li>
+                <li><a href="#">What the Game Brings to Players</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

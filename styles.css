@@ -1,0 +1,320 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.navbar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+/* Top Navigation Buttons */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    padding: 10px 40px;
+    color: #bbb;
+}
+
+.breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Font Styling for "Virtual Void Interactive" */
+.navbar h1 {
+    font-family: 'Courier New', Courier, monospace; /* Example font */
+    font-size: 3rem; /* Adjust the size */
+    color: #f0db4f; /* Change the color (optional) */
+    font-weight: bold; /* Make it bold */
+}
+/* Style for the logo in the navbar */
+.navbar .logo {
+    height: 150px; /* Adjust the height to fit your header */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing between logo and search bar */
+}
+/* Background for Main Section */
+.main-container {
+    background-image: url('ai_image_1021162_24091997.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Font Styling for Banner Text */
+.header-banner .banner-content {
+    font-family: 'Georgia', serif; /* Example font */
+    font-size: 3rem; /* Adjust size for main text */
+    color: white; /* Change color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional shadow effect */
+}
+
+.header-banner .banner-content p {
+    font-family: 'Verdana', sans-serif; /* Different font for subtitle */
+    font-size: 1.5rem; /* Adjust size for subtitle */
+    color: #ffffff; /* Color for subtitle */
+    margin-top: 10px;
+}
+
+.header-banner {
+    height: 400px; /* Adjust height as needed */
+    background-image: url('images/ai_image_1021162_24091998.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    position: relative; /* Required to position text */
+    color: white;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional for readability */
+}
+
+.banner-content {
+    position: absolute;
+    z-index: 2; /* Ensure text is above the image */
+    text-align: center;
+    font-size: 3rem; /* Adjust text size as needed */
+    font-weight: bold;
+    color: white; /* Text color */
+}
+/* Footer Styling */
+/* Styles the general footer container */
+footer {
+    text-align: center; /* Centers text within the footer */
+    background-color: #1e1e1e; /* Dark background for footer */
+    color: #bbb; /* Light gray text color */
+    padding: 10px; /* Adds space inside the footer container */
+    margin-top: 20px; /* Creates space above the footer */
+}
+
+/* Custom Footer Container */
+/* Adds a sectioned area for additional footer content */
+.custom-footer {
+    display: flex; /* Creates a flexible layout for sections */
+    justify-content: space-around; /* Spaces sections evenly */
+    background-color: #333; /* Slightly darker background for differentiation */
+    padding: 20px 10px; /* Adds padding inside the container */
+    color: white; /* Text color for all content inside the footer */
+    font-size: 14px; /* Font size for the text */
+}
+
+/* Footer Section Styling */
+/* Styles individual sections within the footer */
+.footer-section {
+    text-align: left; /* Aligns text to the left within each section */
+    max-width: 300px; /* Limits the width of each section */
+}
+
+/* Section Headings */
+/* Styles the headings (e.g., Contact, FAQ, Blog) */
+.footer-section h3 {
+    font-size: 16px; /* Font size for headings */
+    margin-bottom: 10px; /* Adds space below each heading */
+    color: #f4f4f4; /* Slightly lighter color for headings */
+}
+
+/* Paragraphs and Lists */
+/* Removes default styling for paragraphs and lists */
+.footer-section p,
+.footer-section ul {
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+    list-style: none; /* Removes bullet points from lists */
+}
+
+/* List Items */
+/* Adds spacing for list items within sections */
+.footer-section ul li {
+    margin: 5px 0; /* Adds vertical space between list items */
+}
+
+/* Links Styling */
+/* Styles links within the footer */
+.footer-section a {
+    color: #bbb; /* Light gray color for links */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover Effect for Links */
+/* Changes link color when hovered over */
+.footer-section a:hover {
+    color: #fff; /* Changes link color to white */
+}
+
+
+
+/* Product Section */
+.product {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 400px;
+    margin: 0; /* Reset any conflicting margins */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    /* New properties to move it up */
+    position: relative;
+    top: -800px; /* Move it up by 50px, adjust as needed */
+}
+
+.banner-image {
+    flex-shrink: 0; /* Ensures the image keeps its size */
+    padding-right: 10px; /* Adds spacing from the right edge */
+    align-self: flex-end; /* Aligns the image to the bottom of the container */
+    margin-left: auto; /* Pushes the image to the right */
+}
+
+.banner-image img {
+    max-height: 600px; /* Limits the image height */
+    width: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+}
+
+
+
+.video-top {
+    grid-column: 1 / 2; /* Place in the first column */
+    grid-row: 1; /* First row */
+}
+
+.video-bottom {
+    grid-column: 1 / 2; /* Place in the same column as the top video */
+    grid-row: 2; /* Second row */
+}
+
+.details {
+    grid-column: 2 / 3; /* Place in the second column */
+    grid-row: 1 / span 2; /* Span across both rows */
+}
+
+/* Main Video/Image */
+.main-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-video img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Thumbnails */
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+    border-color: #007bff;
+}
+
+/* Details Section */
+.details {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.details select,
+.details button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.details button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #bbb;
+    padding: 10px;
+    margin-top: 20px;
+}
